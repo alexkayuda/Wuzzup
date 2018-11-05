@@ -1,0 +1,18 @@
+User && com.muc.Server types of communications
+
+- User to com.muc.Server
+    * login / logoff
+    * current status (online/not online)
+
+- com.muc.Server to User
+    * Notify other users about one's presents
+
+
+- User to User
+    * private messages (1 on 1)
+    * broadcast messages (1 to many)
+
+
+Commands:
+    login <user> <password>
+    logoff
